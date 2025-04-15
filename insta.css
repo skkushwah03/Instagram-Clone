@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+#container{
+     width: 560px;
+    height: 900px;
+    border: 2px solid black;
+    margin-left: 300px;
+    
+}
+#navbar{
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+    height:80px;
+    border: none;
+    /* margin-left: 350px; */
+    display: flex;
+}
+#insta-logo{
+    background-image:url("insta.png");
+    /* background-image:url("images1.png"); */
+    width: 275px;
+    height: 90px; 
+    border:none;
+    background-size:cover ;
+    
+}
+#downword{
+    width: 20px;
+    height:20px;
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-left: 5px;
+}
+#heart{
+    width: 20px;
+    height:20px;
+    /* background-color: red; */
+    margin-top: 40px;
+    margin-left: 190px;
+}
+#messg{
+    width: 20px;
+    height:20px;
+    /* background-color: red; */
+    margin-top: 40px;
+    margin-left:20px;
+}
+#topbar{
+    background-color: white;
+    border: 1px solid white;
+    /* width: 100%; */
+    height:170px;
+    margin-top: 10px;
+    display: flex;
+}
+.story{
+    border: 3px solid red;
+    width: 120px;
+    height: 120px;
+    background-color:white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 12px;
+     /* margin-bottom: 50px; */
+    /* justify-content:space-evenly; */
+    /* justify-content:space-between ; */
+}
+
+.box1{
+    background-image: url("saurav.JPG");
+    background-size: cover;
+}
+.box2{
+    background-image: url("vishal.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("prashant.jpg");
+    background-size: cover;
+}
+.box4{
+    background-image: url("ritik.jpg");
+    background-size: cover;
+}
+#nameid{
+    margin-top:130px ;
+    margin-left:-32px ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* .cir{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-left: 5px;
+} */
+
+#logobar{
+    width: 100%;
+    height: 65px;
+    background-color: white; 
+    padding-top:10px ;
+    border-top:1px solid rgb(157, 152, 152);
+    border-bottom:1px solid rgb(157, 152, 152);
+    display: flex;
+  
+}
+#circ1{
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 50%;
+    margin-left: 7px;
+    background-image: url("saurav.JPG");
+    background-size: cover;
+   
+    /* margin-top: 15px; */
+}
+#user{
+    margin-left: -25px;
+}
+#dots{
+    width: 40px;
+    height: 40px;
+    border:2px solid white;
+    margin-left: 260px;
+   margin-top:20px;
+}
+
+#bar{
+    width:560px;
+    height:70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    position: fixed;
+    margin-top: 215px;
+}
+#phts{
+    background-color: antiquewhite;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url("saurav.JPG");
+    background-size: cover;
+}
+#section{
+    width: 100%;
+    height: 400px;
+    /* background-color:rgb(83, 152, 111); */
+    background-image: url("saurav.JPG");
+    background-size: cover;
+    /* background-size:contain; */
+    /* background-size: auto;
+    background-repeat:no-repeat; */
+}
+
+#feedbar{
+background-color: white;
+display: flex;
+height: 200px;
+
+}
+#hert{
+    width: 20px;
+    height:20px;
+    margin: 5px;
+}
+#comment{
+    width: 20px;
+    height:20px;  
+    margin: 5px; 
+}
+#share{
+    width: 20px;
+    height:20px;
+    margin: 5px;
+}
+#likes{
+    margin-top: 28px;
+    margin-left:-125px;
+}
+#feedback{
+    margin-top: 50px;
+    margin-left:-90px;
+}
